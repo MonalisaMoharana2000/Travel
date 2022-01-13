@@ -1,0 +1,39 @@
+.services .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(32rem, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+  }
+  
+  .services .box-container .box {
+    background: #222;
+    border-radius: 1rem;
+    padding: 3rem;
+    text-align: center;
+    border: 0.2rem solid #111;
+  }
+  
+  .services .box-container .box:hover {
+    border: 0.2rem solid #29d9d5;
+  }
+  
+  .services .box-container .box i {
+    font-size: 4rem;
+    color: #29d9d5;
+    margin-bottom: 2rem;
+  }
+  
+  .services .box-container .box h3 {
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  .services .box-container .box p {
+    padding: 1rem 0;
+    font-size: 1.4rem;
+    color: #aaa;
+    line-height: 2;
+  }
+  

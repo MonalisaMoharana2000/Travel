@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4{
+ font-size: 38px;
+ color: #ffffff;
+ text-transform: capitalize;
+ margin-bottom: 35px;
+ font-weight: 500;
+ position: relative;
+}
+.logo.ft-1{
+	font-size: 45px;
+	text-decoration: none;
+	position: relative;
+}
+.logo.ft-1:hover{
+	color: #fff;
+}
+.logo.ft-1+p{
+	margin-top: 35px;
+}
+.footer-col p{
+	color: gray;
+}
+.logo.ft-1 .fas::after{
+	content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col h4::before{
+ content: '';
+ position: absolute;
+ left:0;
+ bottom: -10px;
+ background-color: #e91e63;
+ height: 2px;
+ box-sizing: border-box;
+ width: 50px;
+}
+.footer-col ul li:not(:last-child){
+ margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+.footer-col .email{
+  width: 100%;
+  border-radius: 5rem;
+  border: 0.2rem solid #29d9d5;
+  background: none;
+  font-size: 1.5rem;
+  text-transform: none;
+  color: #aaa;
+  margin-bottom: 1rem;
+  padding: 0.2rem 1.4rem;
+}
+.box .share a {
+  height: 2.5rem;
+  width: 2.5rem;
+  line-height: 2rem;
+  font-size: 1rem;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  border: 0.2rem solid #29d9d5;
+  color: #29d9d5;
+  margin-right: .5rem;
+  text-align: center;
+}
+.footer-col:nth-child(2){
+	width: 23%;
+}
+.footer-col:nth-child(3){
+	width: 26%;
+}
+.fas.fa-phone-alt{
+	transform: rotate(109deg);
+}
+.box .share a:hover {
+  background: #29d9d5;
+  color: #111;
+}
+.box .logo {
+  padding-bottom: 1rem;
+  font-size: 2.2rem;
+  color: #fff;
+}
+.footer-col ul li a {
+	margin-left: -32px;
+}
+.share{
+	/* margin-left: 320px; */
+}

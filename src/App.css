@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Nunito:wght@200;600&family=Roboto+Condensed&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  line-height: 1.5;
+  font-family:'Fjalla One', sans-serif; ;
+}
+
+
+:root{
+  --primary: #fff;
+}
+
+.nav-link{
+  margin: 15px;
+    height: 47px;
+}
+.btn{
+  padding: 8px 20px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid black;
+  cursor: pointer;
+  
+}
+.btn:hover{
+  background-color: aqua;
+  /* transition: all 0.3s ease-out; */
+}
+.hero-container{
+  background: url("https://images.unsplash.com/photo-1539635278303-d4002c07eae3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzh8fHRyYXZlbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60") center center/cover
+  no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+object-fit: contain;
+}
+.hero-container > h1{
+  color: #fff;
+  font-size: 100px;
+  margin-top: -2px;
+}
+
+.hero-container > p{
+  margin-top: -5px;
+  color: #fff;
+  font-size: 32px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode','Lucida Grande','Lucida Sans',Arial,sans-serif;
+}
+
+
+ 
+h1{
+  text-align: center;
+  padding: 50px;
+}
+
+
+.card-img-top {
+  width: 286px;
+  height: 200px;
+}
+.card{
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  border-radius: 10px;
+  
+
+}
+.card-body{
+  padding: 56px;
+  background-color: #dcdcdcb8;
+}
+.row{
+  padding: 15px;
+}
+.logo {
+  color: #fff;
+  text-decoration: underline;
+  font-size: 28px;
+}
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+} 
